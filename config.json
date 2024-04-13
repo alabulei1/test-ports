@@ -1,0 +1,15 @@
+{
+  "address": "",
+  "chat": "https://huggingface.co/second-state/gemma-1.1-7b-it-GGUF/resolve/main/gemma-1.1-7b-it-Q5_K_M.gguf",
+  "chat_ctx_size": "3072",
+  "description": "Try Gemma v1.1 7b version 2",
+  "domain": "gaianet.xyz",
+  "embedding": "https://huggingface.co/second-state/All-MiniLM-L6-v2-Embedding-GGUF/resolve/main/all-MiniLM-L6-v2-ggml-model-f16.gguf",
+  "embedding_ctx_size": "384",
+  "llamaedge_port": "7070",
+  "prompt_template": "llama-2-chat",
+  "rag_prompt": "Use the following pieces of context to answer the user's question.\nIf you don't know the answer, just say that you don't know, don't try to make up an answer.\n----------------\n",
+  "reverse_prompt": "",
+  "snapshot": "https://huggingface.co/datasets/alabulei/gaianet-test/resolve/main/none.snapshot",
+  "system_prompt": "You are a helpful, respectful and honest assistant. Always answer accurately, while being safe."
+}
