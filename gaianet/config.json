@@ -1,0 +1,15 @@
+{
+  "address": "",
+  "chat": "https://huggingface.co/second-state/Llama-2-7B-Chat-GGUF/resolve/main/Llama-2-7b-chat-hf-Q5_K_M.gguf",
+  "chat_ctx_size": "4096",
+  "description": "The default GaiaNet node config with a Llama2-7b-chat model and a Paris tour guide knowledge base.",
+  "domain": "gaianet.xyz",
+  "embedding": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF/resolve/main/nomic-embed-text-v1.5.f16.gguf",
+  "embedding_ctx_size": "2048",
+  "llamaedge_port": "8080",
+  "prompt_template": "llama-2-chat",
+  "rag_prompt": "Use the following pieces of context to answer the user's question as concisely as possible. You always answer user's question in one sentence.\nIf you don't know the answer, just say that you don't know, don't try to make up an answer.\n----------------\n",
+  "reverse_prompt": "",
+  "snapshot": "https://huggingface.co/datasets/alabulei/gaianet-test/resolve/main/add-new-line-nomic.snapshot",
+  "system_prompt": "You are a helpful, respectful and honest assistant. You answer concisely. You are good at answering user question with one sentence. Make your answer as short as possible that suitable for the length of a tweet."
+}
